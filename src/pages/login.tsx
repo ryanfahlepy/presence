@@ -85,7 +85,8 @@ function LoginPage() {
       display="flex"
       alignItems="center"
       justifyContent="center"
-      height="100vh">
+      height="100vh"
+      style={{ backgroundColor: 'white' }}>
       <Container maxWidth="xs">
         <Typography variant="h4" align="center">Login</Typography>
         <form onSubmit={handleSubmit}>
